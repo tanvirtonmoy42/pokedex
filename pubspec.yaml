@@ -1,0 +1,39 @@
+name: pokedex_starter
+description: A new Flutter project.
+
+publish_to: 'none'
+
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  cupertino_icons: ^0.1.3
+
+  # * packages we need
+  intl: ^0.16.1 # optional
+  http: ^0.12.2
+  html: ^0.15.0
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+
+  uses-material-design: true
+
+  assets:
+  # * images we need
+    - assets/images/pikachu.png
+    - assets/images/pokeball.png
+  # * fonts we need
+  fonts:
+    - family: Pokemon
+      fonts:
+        - asset: assets/fonts/PokemonHollow.ttf
+        - asset: assets/fonts/PokemonSolid.ttf
